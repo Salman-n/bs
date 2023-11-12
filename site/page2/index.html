@@ -1,0 +1,565 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.7">
+    
+    
+      
+        <title>Materi 2 - BS</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.4b4a2bd9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Materi 2 - BS" >
+      
+        <meta  property="og:description"  content="None" >
+      
+        <meta  property="og:image"  content="./assets/images/social/page2.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="None" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Materi 2 - BS" >
+      
+        <meta  name="twitter:description"  content="None" >
+      
+        <meta  name="twitter:image"  content="./assets/images/social/page2.png" >
+      
+    
+    
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#sql-fungsi-agregasi" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="BS" class="md-header__button md-logo" aria-label="BS" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BS
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Materi 2
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Materi 1
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Materi 2
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="BS" class="md-nav__button md-logo" aria-label="BS" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    BS
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Materi 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Materi 2
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Materi 2
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pengertian-fungsi-agregasi" class="md-nav__link">
+    Pengertian Fungsi Agregasi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#berikut-tabel-jenis-fungsi-agregasi" class="md-nav__link">
+    Berikut Tabel Jenis Fungsi Agregasi
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="sql-fungsi-agregasi">SQL Fungsi Agregasi</h1>
+<h2 id="pengertian-fungsi-agregasi">Pengertian Fungsi Agregasi <img alt="😄" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f604.svg" title=":smile:" /></h2>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Fungsi Agregasi adalah sebuah fungsi yang akan menghasilkan sebuah value baru dari hasil perhitungan beberapa kolom pada sebuah query, maksudnya bahwa fungsi ini digunakan untuk menampilkan nilai-nilai atribut yang ada dalam tabel, sering pula ada kebutuhan untuk menampilkan data-data agregasi sehingga kita bisa mengembalikan semua data dari kolom tertentu, Anda dapat mengembalikan satu nilai dari kolom tertentu. Terdapat beberapa jenis fungsi agregasi SQL yang dapat kita gunakan, di antaranya:</p>
+<ul>
+<li>COUNT</li>
+<li>SUM</li>
+<li>AVG</li>
+<li>MIN &amp; MAX</li>
+</ul>
+</div>
+<h2 id="berikut-tabel-jenis-fungsi-agregasi">Berikut Tabel Jenis Fungsi Agregasi</h2>
+<table>
+<thead>
+<tr>
+<th>Fungsi</th>
+<th>Kegunaan</th>
+<th>Sintaks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>COUNT()</td>
+<td>Mengembalikan jumlah total baris yang cocok dengan kueri. Maksudnya, fungsi yang akan menghitung jumlah value dari  sebuah kolom dari sebuah tabel. Fungsi COUNT ini dapat juga digabungkan dengan DISTINCT untuk menampilkan value yang unik dari sebuah kolom sehingga apabila ada value yang sama dari kolom tersebut atau NULL tidak akan dihitung. Fungsi COUNT dapat digunakan untuk kolom dengan tipe data string ataupun numerik.</td>
+<td><mark class="critic"> SELECT COUNT (Nama_Kolom) FROM (Nama Tabel) </mark>  atau  <mark class="critic"> SELECT COUNT (DISTINCT Nama_Kolom) FROM Nama_Tabel</mark></td>
+</tr>
+<tr>
+<td>SUM()</td>
+<td>Mengembalikan jumlah nilai untuk semua baris dalam kolom yang dipilih. Fungsi ini hanya dapat digunakan apabila tipe data dari kolom tersebut adalah numerik (integer, biginteger atau float). Fungsi ini dituliskan dengan menuliskan SUM pada kolom yang akan dihitung. Fungsi SUM juga dapat digabungkan dengan klausa GROUP BY dan HAVING seperti yang telah dijelaskan di awal.</td>
+<td><mark class="critic"> SELECT SUM (Nama_Kolom) FROM Nama_Tabel </mark>  atau  <mark class="critic"> SELECT column1, column2, SUM(NAMA_KOLOM) AS NAMA_KOLOM_ALIASNYA FROM NAMA_TABEL GROUP BY column1, column2 HAVING condition; </mark></td>
+</tr>
+<tr>
+<td>AVG()</td>
+<td>Mengembalikan nilai mean-rata-rata dari semua nilai di kolom yang dipilih. Fungsi ini sama dengan metode mean atau nilai rata-rata pada perhitungan matematika dan statistika. Sama seperti SUM, fungsi AVG dapat juga digunakan dengan menambahkan GROUP BY serta HAVING pada syntax query-nya.</td>
+<td><mark class="critic"> SELECT AVG (Nama_kolom) FROM Nama_Tabel; </mark>  atau  <mark class="critic"> SELECT column1, column2, AVG(NAMA_KOLOM) AS NAMA_KOLOM_ALIASNYA FROM NAMA_TABEL GROUP BY column1, column2 HAVING condition; </mark></td>
+</tr>
+<tr>
+<td>MIN()</td>
+<td>Mengembalikan nilai terkecil di kolom yang dipilih. Fungsi ini juga bisa menggunakan HAVING atau GROUP BY.</td>
+<td><mark class="critic"> SELECT MIN(NAMA_KOLOM) from NAMA_TABEL </mark> atau <mark class="critic"> SELECT MIN(NAMA_KOLOM) AS NAMA_KOLOM_ALIASNYA from NAMA_TABEL GROUP BY condition </mark></td>
+</tr>
+<tr>
+<td>MAX()</td>
+<td>Mengembalikan nilai terbesar di kolom yang dipilih. Fungsi ini juga bisa menggunakan HAVING atau GROUP BY.</td>
+<td><mark class="critic"> SELECT MAX(NAMA_KOLOM) from NAMA_TABEL </mark> atau <mark class="critic"> SELECT MAX(NAMA_KOLOM) AS NAMA_KOLOM_ALIASNYA from NAMA_TABEL GROUP BY condition </mark></td>
+</tr>
+</tbody>
+</table>
+<h1 id="sql-distinct">SQL DISTINCT</h1>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Pernyataan SELECT DISTINCT digunakan untuk mengembalikan hanya nilai yang berbeda. Di dalam sebuah tabel, kolom sering berisi banyak nilai duplikat, dan terkadang Anda hanya ingin membuat daftar perbedaan nilai yang berbeda. Pernyataan SELECT DISTINCT digunakan untuk mengembalikan hanya nilai yang berbeda.
+Sintaksnya Sebagai Berikut :
+<mark class="critic"> SELECT DISTINCT kolom1, kolom2, ...
+FROM nama_tabel; </mark></p>
+</div>
+<h2 id="berikut-penggunaan-sql-distinct">Berikut Penggunaan SQL DISTINCT</h2>
+<div class="admonition note">
+<p>Kita menggunakan kata kunci DISTINCT dengan pernyataan SELECT ketika ada kebutuhan untuk menghindari nilai duplikat yang ada dalam kolom/tabel tertentu. Ketika kita menggunakan kata kunci DISTINCT, pernyataan SELECT hanya mengembalikan record unik yang tersedia dalam tabel.  <br />
+Kata Kunci SQL DISTINCT dapat dikaitkan dengan pernyataan SELECT untuk mengambil catatan unik dari satu atau beberapa kolom/tabel.</p>
+</div>
+<p>Sintaks
+Sintaks dasar kata kunci SQL DISTINCT adalah sebagai berikut -</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="w">    </span><span class="k">SELECT</span><span class="w"> </span><span class="k">DISTINCT</span><span class="w"> </span><span class="n">kolom1</span><span class="p">,</span><span class="w"> </span><span class="n">kolom2</span><span class="p">,</span><span class="w"> </span><span class="p">.....</span><span class="w"> </span><span class="n">kolomN</span><span class="w"> </span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="k">FROM</span><span class="w"> </span><span class="n">nama_tabel</span><span class="p">;</span>
+</code></pre></div>
+<div class="admonition note">
+<p>Di mana, column1, column2, dst. adalah kolom-kolom yang ingin kita ambil nilai unik atau berbeda; dan table_name mewakili nama tabel yang berisi data.</p>
+</div>
+<h2 id="kata-kunci-distinct-pada-kolom-tunggal">Kata Kunci DISTINCT pada Kolom Tunggal</h2>
+<div class="admonition note">
+<p>Kita dapat menggunakan kata kunci DISTINCT pada kolom tunggal untuk mengambil semua nilai unik dalam kolom tersebut, yaitu dengan menghilangkan duplikatnya. Hal ini sering digunakan untuk mendapatkan ringkasan dari nilai-nilai yang berbeda dalam kolom tertentu atau untuk menghilangkan data yang berlebihan.
+Contoh
+Asumsikan kita telah membuat sebuah tabel dengan nama PELANGGAN pada database MySQL dengan menggunakan pernyataan CREATE TABLE seperti yang ditunjukkan di bawah ini -</p>
+</div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">CUSTOMERS</span><span class="w"> </span><span class="p">(</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">   </span><span class="n">ID</span><span class="w"> </span><span class="nb">INT</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">   </span><span class="n">NAMA</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="w"> </span><span class="p">(</span><span class="mi">20</span><span class="p">)</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">   </span><span class="n">UMUR</span><span class="w"> </span><span class="nb">INT</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">   </span><span class="n">ALAMAT</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="w"> </span><span class="p">(</span><span class="mi">25</span><span class="p">),</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">   </span><span class="n">GAJI</span><span class="w"> </span><span class="nb">DECIMAL</span><span class="w"> </span><span class="p">(</span><span class="mi">18</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">),</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">   </span><span class="n">KUNCI</span><span class="w"> </span><span class="n">PRIMER</span><span class="w"> </span><span class="p">(</span><span class="n">ID</span><span class="p">)</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="p">);</span>
+</code></pre></div>
+<div class="admonition note"></div>
+<p>Kueri berikut menyisipkan nilai ke dalam tabel ini menggunakan pernyataan INSERT -
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">MASUKKAN</span><span class="w"> </span><span class="n">KE</span><span class="w"> </span><span class="n">DALAM</span><span class="w"> </span><span class="n">NILAI</span><span class="w"> </span><span class="n">PELANGGAN</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Ramesh&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">32</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Ahmedabad&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">2000</span><span class="p">.</span><span class="mi">00</span><span class="p">),</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Khilan&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">25</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Delhi&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">1500</span><span class="p">.</span><span class="mi">00</span><span class="p">),</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Kaushik&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">23</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Kota&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">2000</span><span class="p">.</span><span class="mi">00</span><span class="p">),</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Chaitali&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">25</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Mumbai&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">6500</span><span class="p">.</span><span class="mi">00</span><span class="p">),</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Hardik&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">27</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Bhopal&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">8500</span><span class="p">.</span><span class="mi">00</span><span class="p">),</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="p">(</span><span class="mi">6</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Komal&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">22</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Hyderabad&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">4500</span><span class="p">.</span><span class="mi">00</span><span class="p">),</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="p">(</span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Muffy&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">24</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Indore&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">10000</span><span class="p">.</span><span class="mi">00</span><span class="p">);</span>
+</code></pre></div>
+   Tabel yang diperoleh adalah seperti yang ditunjukkan di bawah ini -
+   <a class="glightbox" href="https://i.ibb.co/K6W5kS6/image.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="GMBR" src="https://i.ibb.co/K6W5kS6/image.png" /></a></p>
+<div class="admonition note">
+<p>Sekarang, mari kita gunakan kata kunci DISTINCT dengan kueri SELECT di atas dan kemudian lihat hasilnya -</p>
+</div>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="w">    </span><span class="k">SELECT</span><span class="w"> </span><span class="k">DISTINCT</span><span class="w"> </span><span class="n">SALARY</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">CUSTOMERS</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">SALARY</span><span class="p">;</span>
+</code></pre></div>
+    PILIH GAJI YANG BERBEDA DARI URUTAN PELANGGAN BERDASARKAN GAJI;
+    Hasilnya 
+    Ini akan menghasilkan hasil sebagai berikut di mana kita tidak memiliki entri duplikat jadi bersifat UNIK</p>
+<p><a class="glightbox" href="https://i.ibb.co/jGR7YJw/image.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="uwaww" src="https://i.ibb.co/jGR7YJw/image.png" /></a></p>
+<h2 id="kata-kunci-distinct-pada-beberapa-kolom">Kata Kunci DISTINCT pada Beberapa Kolom</h2>
+<div class="admonition note">
+<p>Kita juga dapat menggunakan kata kunci DISTINCT pada beberapa kolom untuk mengambil semua kombinasi nilai unik di seluruh kolom tersebut. Hal ini sering digunakan untuk mendapatkan ringkasan nilai yang berbeda di beberapa kolom, atau untuk menghilangkan data yang berlebihan.
+Contoh
+Dalam kueri berikut, kami mengambil daftar semua kombinasi unik dari usia dan gaji pelanggan menggunakan kata kunci DISTINCT -</p>
+</div>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="w">    </span><span class="k">SELECT</span><span class="w"> </span><span class="k">DISTINCT</span><span class="w"> </span><span class="n">AGE</span><span class="p">,</span><span class="w"> </span><span class="n">SALARY</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">CUSTOMERS</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">AGE</span><span class="p">;</span>
+</code></pre></div>
+    hasilnya
+    Meskipun kolom AGE memiliki nilai "25" dalam dua catatan, setiap kombinasi "25" dengan 'gaji' spesifiknya adalah unik, sehingga kedua baris disertakan dalam kumpulan hasil -</p>
+<p><a class="glightbox" href="https://i.ibb.co/THxGcC7/image.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="jljkl" src="https://i.ibb.co/THxGcC7/image.png" /></a></p>
+<h2 id="kata-kunci-distinct-dengan-fungsi-count">Kata Kunci DISTINCT dengan Fungsi COUNT()</h2>
+<div class="admonition note">
+<p>Fungsi COUNT() digunakan untuk mendapatkan jumlah record yang di-retun oleh kueri SELECT. Kita perlu mengoper sebuah ekspresi ke fungsi ini agar kueri SELECT mengembalikan jumlah record yang memenuhi ekspresi yang ditentukan.
+Jika kita mengoper kata kunci DISTINCT ke fungsi COUNT() sebagai ekspresi, fungsi ini akan mengembalikan jumlah nilai unik dalam sebuah kolom tabel. Maka Sintaksnya adalah</p>
+</div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="w">    </span><span class="k">SELECT</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="k">DISTINCT</span><span class="w"> </span><span class="k">column_name</span><span class="p">)</span><span class="w"> </span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">    </span><span class="k">FROM</span><span class="w"> </span><span class="n">nama_tabel</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">kondisi</span><span class="p">;</span>
+</code></pre></div>
+<div class="admonition note">
+<p>Di mana, column_name adalah nama kolom yang ingin kita hitung nilai uniknya; dan table_name adalah nama tabel yang berisi data.
+Contoh
+Dalam kueri berikut, kami mengambil jumlah usia pelanggan yang berbeda -</p>
+</div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="k">DISTINCT</span><span class="w"> </span><span class="n">AGE</span><span class="p">)</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">UniqueAge</span><span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">CUSTOMERS</span><span class="p">;</span>
+</code></pre></div>
+<div class="admonition note">
+<p>Hasilnya :</p>
+</div>
+<p><a class="glightbox" href="https://i.ibb.co/JFYVqxn/image.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="sdsds" src="https://i.ibb.co/JFYVqxn/image.png" /></a></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2023 <a href="https://github.com/Salman-n"  target="_blank" rel="noopener">Salman Wiryansyah</a>
+
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.aecac24b.min.js"></script>
+      
+    
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>
