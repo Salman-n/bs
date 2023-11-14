@@ -21,8 +21,50 @@
 | MIN()   | Mengembalikan nilai terkecil di kolom yang dipilih. Fungsi ini juga bisa menggunakan HAVING atau GROUP BY.    | {== SELECT MIN(NAMA_KOLOM) from NAMA_TABEL ==} atau {== SELECT MIN(NAMA_KOLOM) AS NAMA_KOLOM_ALIASNYA from NAMA_TABEL GROUP BY condition ==}    |
 | MAX()   | Mengembalikan nilai terbesar di kolom yang dipilih. Fungsi ini juga bisa menggunakan HAVING atau GROUP BY.    | {== SELECT MAX(NAMA_KOLOM) from NAMA_TABEL ==} atau {== SELECT MAX(NAMA_KOLOM) AS NAMA_KOLOM_ALIASNYA from NAMA_TABEL GROUP BY condition ==}   |
 
+# Contoh Penerapan masing-masing SQL Fungsi Agregasi
+!!! note ""
+    Contoh kita akan membuat sebuah database 'HP' dengan terdiri 1 Tabel yaitu Tabel 'data_pembelian' dengan terdiri atas 5 Kolom diantaranya ada kolom 'id_ord', 'nama_pembeli', 'id_hp', 'jmlh_ord'.
+    kita buat databasenya dulu bernama HP, setelah itu kita gunakan databasenya menggunakan perintah USE
+
+
+![jkjk](https://i.ibb.co/ZxQgD3s/image.png)
+
+!!! note ""
+    Lalu, kita buat table baru bernama 'data_pembelian' dengan kolom nya terdiri dari 'id_ord', 'nama_pembeli', 'id_hp', 'jmlh_ord'
+    Untuk tipe datanya id_ord, id_hp, dan jmlh_ord itu menggunakan tipe data INT atau integer, sedangkan nama_pembeli menggunakan VARCHAR untuk tutorialnya sebagai berikut.
+
+![kokok](https://i.ibb.co/ygw7Jbh/image.png)
+
+
+!!! note ""
+    Lalu, kita isi datanya menggunakan perintah INSERT INTO sebagai berikut.
+
+
+![kokoko](https://i.ibb.co/yPvLfJp/image.png)
+
+
+!!! note ""
+    Kita akan hitung data jmlh_ord menggunakan SUM()
+    Untuk menghitung jumlah baris pada nama_pembeli menggunakan COUNT()
+
+
+![huhuhu](https://images2.imgbox.com/9b/79/reJRvJ9G_o.png)
+
+!!! note ""
+    Karena terdapat duplikasi data pada kolom 'id_hp' maka kita bisa hitung data barisnya menggunakan COUNT dengan DISTINCT seperti ini.
+
+
+![huhuhu](https://images2.imgbox.com/1c/23/UTaSrdnv_o.png)
+
+
+!!! note ""
+    Kita bisa mengurutkan nilai terbesar dan terkecil dari kolom 'jmlh_order'
+
+
+![huhuhu](https://images2.imgbox.com/05/2d/9VrT7WyP_o.png)
+
 # SQL DISTINCT 
-!!! Info
+!!! Info 
 
     Pernyataan SELECT DISTINCT digunakan untuk mengembalikan hanya nilai yang berbeda. Di dalam sebuah tabel, kolom sering berisi banyak nilai duplikat, dan terkadang Anda hanya ingin membuat daftar perbedaan nilai yang berbeda. Pernyataan SELECT DISTINCT digunakan untuk mengembalikan hanya nilai yang berbeda.
     Sintaksnya Sebagai Berikut :
@@ -53,17 +95,18 @@ Sintaks dasar kata kunci SQL DISTINCT adalah sebagai berikut -
 ```sql
 CREATE TABLE CUSTOMERS (
    ID INT NOT NULL,
-   NAMA VARCHAR (20) NOT NULL,
-   UMUR INT NOT NULL,
-   ALAMAT VARCHAR (25),
-   GAJI DECIMAL (18, 2),
-   KUNCI PRIMER (ID)
+   NAME VARCHAR (20) NOT NULL,
+   AGE INT NOT NULL,
+   ADDRESS VARCHAR (25),
+   SALARY DECIMAL (18, 2),
+   PRIMARY KEY(ID)
 );
 ```
 !!! note ""
    Kueri berikut menyisipkan nilai ke dalam tabel ini menggunakan pernyataan INSERT -
 ```SQL
 MASUKKAN KE DALAM NILAI PELANGGAN
+INSERT INTO CUSTOMERS(ID, NAME, UMUR, ALAMAT, GAJI) VALUES
 (1, 'Ramesh', 32, 'Ahmedabad', 2000.00),
 (2, 'Khilan', 25, 'Delhi', 1500.00),
 (3, 'Kaushik', 23, 'Kota', 2000.00),
